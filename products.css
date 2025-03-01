@@ -1,0 +1,126 @@
+.Product{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.ProductInfo{
+    border: 1px solid black;
+    height: 260px;
+    width: 600px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 50px;
+}
+.Brand{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(16),
+        cursor .5s step-end infinite alternate;
+}
+.ModelName{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 242px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(16), cursor .5s step-end infinite alternate;
+}
+.ScreenSize{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 152px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(23), cursor .5s step-end infinite alternate;
+}
+.Color{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 107px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(12), cursor .5s step-end infinite alternate;
+}
+.SSDSize{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 124px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(18), cursor .5s step-end infinite alternate;
+}
+.CPU{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 390px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(22), cursor .5s step-end infinite alternate;
+}
+.RAM{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 345px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10), cursor .5s step-end infinite alternate;
+}
+.OS{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(33), cursor .5s step-end infinite alternate;
+}
+.SpecialFeature{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 325px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(37), cursor .5s step-end infinite alternate;
+}
+.GPU{
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-right: 1px solid;
+    width: 255px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(26), cursor .5s step-end infinite alternate;
+}
+@keyframes cursor{
+    50% {border-color: transparent}
+}
+@keyframes typing{
+    from {width: 0}
+}

@@ -1,0 +1,81 @@
+body{
+    background-image: url(Images/PC\ logo.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+.Return{
+    margin-left: 15px;
+}
+.Title{
+    text-align: center;
+    color: black    ;
+    font-size: 50px;
+    margin-top: -50px;
+}
+.Signup{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+.Signup h1{
+    text-align: center;
+    padding-top: 20px;
+}
+form{
+    width: 300px;
+    margin-left: 50px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+}
+input[type="button"]{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.Popup{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 20px 20px 20px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-Popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.Popup h2{
+    margin: 20px 0px 20px;
+}
+.Popup button{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

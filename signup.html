@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="NavBar.css">
+
+    
+    <title>See Isaiah</title>
+</head>
+<body>
+    <header>
+        <br>
+        <a href="home.html" class="Return"><img src="Images/back1.png" height="50" width="50"></a>
+        <h1 class="Title">See Isaiah</h1>
+    </header>
+
+    <main>
+        <div class="Signup">
+            <h1>Sign Up</h1>
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder=" " />
+                <label>Last Name</label>
+                <input type="text" placeholder=" " />
+                <label>Email</label>
+                <input type="text" placeholder=" " />
+                <label>Password</label>
+                <input type="text" placeholder=" " />
+                <label>Confirm Password</label>
+                <input type="text" placeholder=" " />
+                <input type="button" value="Submit" onclick="openPopup()"/>
+            </form>
+        </div>
+
+        <div class="Popup" id="Popup">
+            <h1>Thank You!</h1>
+            <h2>A confirmation email has been sent to your email account.</h2>
+            <button type="button" onclick="closePopup()">Okay</button>
+        </div>
+
+
+        <br>
+    </main>
+
+    <footer>
+        <div class="Footer">
+            <hr>
+            Made by Isaiah See<br>
+            &copy; Copyrighted by Seeyah Corporation.<br>
+            Contact us via <a href="mailto:Isaiah.see@ciit.edu.ph">Isaiah.see@ciit.edu.ph</a>
+        </div>
+    </footer>
+
+    <script>
+        let Popup = document.getElementById("Popup");
+
+        function openPopup(){
+            Popup.classList.add("open-Popup");
+        }
+        function closePopup(){
+            Popup.classList.remove("open-Popup");
+        }
+    </script>
+</body>
+</html>
